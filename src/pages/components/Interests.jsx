@@ -1,8 +1,8 @@
 import React from 'react';
-import yoga from '../../assets/yoga.jpeg'
-import friends from '../../assets/friends.jpeg'
+import yoga from '../../assets/yoga.jpg'
+import friends from '../../assets/friends.jpg'
 import art from '../../assets/art.jpeg'
-import laugh from '../../assets/laugh.jpeg'
+import laugh from '../../assets/laugh.jpg'
 import ProjectItem from './ProjectItem';
 
 const Interests = () => {

@@ -8,7 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profile from "../assets/recentpic.jpg";
+import profile from "../assets/recentpic.jpeg";
 import Skills from "./components/Technologies"
 
 const AnimatedNumbers = ({ value }) => {

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "./components/Layout";
 import TransitionEffect from "./components/TransitionEffect";
-import Contact from "./contact";
+import Contact from "../pages/components/Contact";
 
 const contact = () => {
   return (

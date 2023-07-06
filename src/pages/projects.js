@@ -9,10 +9,10 @@ import { motion } from "framer-motion";
 import TransitionEffect from "./components/TransitionEffect";
 import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 import p1 from '../assets/TVApp.png'
-import p2 from '../assets/HungerSmash.png'
-import p3 from '../assets/Hogwarts-ish.png'
-import p4 from '../assets/Awaken.png'
-import p5 from '../assets/B-Clever.png'
+import p2 from '../assets/HungerSmash.jpg'
+import p3 from '../assets/Hogwarts-ish.jpg'
+import p4 from '../assets/Awaken.jpg'
+import p5 from '../assets/B-Clever.jpg'
 import p6 from '../assets/BudgetApp.png'
 import p7 from '../assets/RecipeApp.png'
 

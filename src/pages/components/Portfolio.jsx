@@ -2,14 +2,14 @@ import React from 'react'
 import Section from './common/Section'
 import { FaGitSquare, FaExternalLinkSquareAlt} from 'react-icons/fa'
 import p1 from '../../assets/TVApp.png'
-import p2 from '../../assets/HungerSmash.png'
-import p3 from '../../assets/Hogwarts-ish.png'
-import p4 from '../../assets/Awaken.png'
-import p5 from '../../assets/B-Clever.png'
+import p2 from '../../assets/HungerSmash.jpg'
+import p3 from '../../assets/Hogwarts-ish.jpg'
+import p4 from '../../assets/Awaken.jpg'
+import p5 from '../../assets/B-Clever.jpg'
 import p6 from '../../assets/BudgetApp.png'
 import p7 from '../../assets/RecipeApp.png'
-import p8 from '../../assets/Portfolio.png'
-import p9 from '../../assets/Portfolio2.png'
+import p8 from '../../assets/Portfolio.jpg'
+import p9 from '../../assets/BBM.jpg'
 import Image from 'next/image';
 
 const Portfolio = () => {
@@ -62,21 +62,21 @@ const Portfolio = () => {
       id: 7, 
       image: p7,
       title: "RecipeApp", 
-      github: "https://github.com/PhoenixMomof2/KandisArzu-Thompson_Portfolio.git",
+      github: "https://github.com/PhoenixMomof2/Portfolio.git",
       demo: "https://youtu.be/myubSd26GxA",  
     },
     {
       id: 8, 
       image: p8,
       title: "Portfolio", 
-      github: "https://github.com/PhoenixMomof2/KandisArzu-Thompson_Portfolio.git",
+      github: "https://github.com/PhoenixMomof2/Portfolio.git",
       demo: "", 
      
-    },
+    },    
     {
       id: 9, 
       image: p9,
-      title: "Portfolio2", 
+      title: "Fitness Blog Site", 
       github: "https://github.com/PhoenixMomof2/KandisArzu-Thompson_Portfolio.git",
       demo: "", 
     },    
