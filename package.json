@@ -25,7 +25,11 @@
     "lint": "eslint ./ --ext js,jsx"
   },
   "eslintConfig": {
-    "extends": ["next/core-web-vitals", "next", "prettier"]
+    "extends": [
+      "next/core-web-vitals",
+      "next",
+      "prettier"
+    ]
   },
   "browserslist": {
     "production": [
