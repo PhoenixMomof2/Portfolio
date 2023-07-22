@@ -6,13 +6,13 @@ import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "./components/TransitionEffect";
-import blog1 from '../assets/blog1.png'
-import blog2 from '../assets/blog2.png'
-import blog3 from '../assets/blog3.png'
-import blog4 from '../assets/blog4.png'
-import blog5 from '../assets/blog5.png'
-import blog6 from '../assets/blog6.png'
-import Interests from './components/Interests'
+import blog1 from "../../public/assets/blog1.png";
+import blog2 from "../../public/assets/blog2.png";
+import blog3 from "../../public/assets/blog3.png";
+import blog4 from "../../public/assets/blog4.png";
+import blog5 from "../../public/assets/blog5.png";
+import blog6 from "../../public/assets/blog6.png";
+import Interests from "./components/Interests";
 
 const FramerImage = motion(Image);
 
@@ -68,7 +68,8 @@ const Blog = ({ img, title, date, link }) => {
       viewport={{ once: true }}
       className="relative w-full p-4 py-6 my-2 rounded-xl flex items-center 
         justify-between bg-white text-black first:mt-0 border border-solid border-black
-        border-r-4 border-b-4 dark:border-white dark:bg-black dark:text-white sm:flex-col">
+        border-r-4 border-b-4 dark:border-white dark:bg-black dark:text-white sm:flex-col"
+    >
       <MovingImg title={title} img={img} link={link} />
       <span className="text-orange-600 text-lg font-semibold pl-4 sm:self-start sm:pl-0 xs:text-sm">
         {date}
@@ -80,7 +81,7 @@ const Blog = ({ img, title, date, link }) => {
 const FeaturedBlog = ({ img, title, time, summary, link }) => {
   return (
     <li className="relative col-span-1 w-full p-4 bg-white border border-solid border-black rounded-2xl dark:bg-black dark:border-white">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl"/>
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl" />
       <Link
         href={link}
         target="_blank"
@@ -104,9 +105,7 @@ const FeaturedBlog = ({ img, title, time, summary, link }) => {
         </h2>
       </Link>
       <p className="text-sm mb-2">{summary}</p>
-      <span className="text-orange-600 font-semibold">
-        {time}
-      </span>
+      <span className="text-orange-600 font-semibold">{time}</span>
     </li>
   );
 };
@@ -126,7 +125,8 @@ const blogs = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Blogging To Solidify Knowledge!"
-            className="mb-16 lg:!text-6xl sm:mb-8 sm:!text-5xl xs:!text-3xl"/>
+            className="mb-16 lg:!text-6xl sm:mb-8 sm:!text-5xl xs:!text-3xl"
+          />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedBlog
               img={blog6}

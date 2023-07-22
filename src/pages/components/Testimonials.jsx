@@ -1,8 +1,8 @@
 import React from 'react'
 import Section from './common/Section'
-import avatar_unsplash from '../../assets/avatar_unsplash.jpeg'
-import recentpic from '../../assets/recentpic.jpeg'
-import joseph_gonzalez from '../../assets/joseph_gonzalez.jpeg'
+import avatar_unsplash from '../../../public/assets/avatar_unsplash.jpeg'
+import recentpic from '../../../public/assets/recentpic.jpeg'
+import joseph_gonzalez from '../../../public/assets/joseph_gonzalez.jpeg'
 import Image from 'next/image';
 
 const Testimonials = () => {

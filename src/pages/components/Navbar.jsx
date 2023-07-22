@@ -6,7 +6,7 @@ import { TiThMenuOutline } from 'react-icons/ti'
 import { BsFillXSquareFill } from 'react-icons/bs'
 import { FaLinkedin, FaDev, FaGitSquare } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai';
-import logo from '../../assets/logo.png';
+import logo from '../../../public/assets/logo.png';
 import { motion } from 'framer-motion'
 import useDarkMode from './hooks/useDarkMode'
 import { MoonIcon, SunIcon } from '../components/Icons'

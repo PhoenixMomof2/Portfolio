@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import HTML from '../../assets/html.png'
-import CSS from '../../assets/css.png';
-import Javascript from '../../assets/javascript.png';
-import ReactImg from '../../assets/react.png';
-import Tailwind from '../../assets/tailwind.png';
-import Rails from '../../assets/rails.png';
-import Node from '../../assets/node.png';
-import Ruby from '../../assets/ruby.png'
-import GitHub from '../../assets/github.png'
-import Postgre from '../../assets/postgresql.png'
-import Next from '../../assets/nextjs.png'
-import Redux from '../../assets/redux.png'
+import HTML from '../../../public/assets/html.png'
+import CSS from '../../../public/assets/css.png';
+import Javascript from '../../../public/assets/javascript.png';
+import ReactImg from '../../../public/assets/react.png';
+import Tailwind from '../../../public/assets/tailwind.png';
+import Rails from '../../../public/assets/rails.png';
+import Node from '../../../public/assets/node.png';
+import Ruby from '../../../public/assets/ruby.png'
+import GitHub from '../../../public/assets/github.png'
+import Postgre from '../../../public/assets/postgresql.png'
+import Next from '../../../public/assets/nextjs.png'
+import Redux from '../../../public/assets/redux.png'
 
 const Technologies = () => {
   return (

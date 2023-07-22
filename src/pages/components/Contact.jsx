@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLinkedin, FaDev, FaGitSquare } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import reach_me from '../../assets/reach_me.jpeg'
+import reach_me from '../../../public/assets/reach_me.jpeg'
 import Image from 'next/image';
 import Link from 'next/link'
 

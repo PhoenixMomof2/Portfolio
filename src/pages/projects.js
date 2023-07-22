@@ -1,5 +1,5 @@
 import AnimatedText from "./components/AnimatedText";
-import {GithubIcon} from '../pages/components/Icons'
+import { GithubIcon } from "../pages/components/Icons";
 import Layout from "./components/Layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,14 +7,14 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import TransitionEffect from "./components/TransitionEffect";
-import { FaExternalLinkSquareAlt } from 'react-icons/fa'
-import p1 from '../assets/TVApp.png'
-import p2 from '../assets/HungerSmash.jpg'
-import p3 from '../assets/Hogwarts-ish.jpg'
-import p4 from '../assets/Awaken.jpg'
-import p5 from '../assets/B-Clever.jpg'
-import p6 from '../assets/BudgetApp.png'
-import p7 from '../assets/RecipeApp.png'
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import p1 from "../../public/assets/TVApp.png";
+import p2 from "../../public/assets/HungerSmash.jpg";
+import p3 from "../../public/assets/Hogwarts-ish.jpg";
+import p4 from "../../public/assets/Awaken.jpg";
+import p5 from "../../public/assets/B-Clever.jpg";
+import p6 from "../../public/assets/BudgetApp.png";
+import p7 from "../../public/assets/RecipeApp.png";
 
 const FramerImage = motion(Image);
 
@@ -65,7 +65,11 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="w-10 hover:text-purple-500 dark:hover:text-purple-500">
+          <Link
+            href={github}
+            target="_blank"
+            className="w-10 hover:text-purple-500 dark:hover:text-purple-500"
+          >
             {" "}
             <GithubIcon />
           </Link>
@@ -73,7 +77,8 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             href={link}
             target="_blank"
             className="flex gap-2 items-center ml-4 rounded-lg bg-black text-white p-2 px-6 text-lg font-semibold
-            dark:bg-white dark:text-black sm:px-4 sm:text-base hover:text-orange-400 dark:hover:text-red-600">
+            dark:bg-white dark:text-black sm:px-4 sm:text-base hover:text-orange-400 dark:hover:text-red-600"
+          >
             Project Demo <FaExternalLinkSquareAlt />
           </Link>
         </div>
@@ -134,7 +139,11 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6 hover:text-purple-500">
+          <Link
+            href={github}
+            target="_blank"
+            className="w-8 md:w-6 hover:text-purple-500"
+          >
             <GithubIcon />
           </Link>
         </div>
@@ -157,11 +166,11 @@ const projects = () => {
       <TransitionEffect />
       <main className="w-full mb-6 flex flex-col items-center justify-center dark:text-white">
         <Layout className="pt-16">
-        <AnimatedText
+          <AnimatedText
             text="Limitless Imagination!"
             className="mb-6 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
-      
+
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
@@ -231,7 +240,7 @@ const projects = () => {
                 github="https://github.com/PhoenixMomof2/AwakenBookClub.git"
               />
             </div>
-          </div> 
+          </div>
         </Layout>
       </main>
     </>
