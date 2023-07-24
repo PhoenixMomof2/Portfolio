@@ -3,8 +3,7 @@
  */
 const nextConfig = {
   images: {
-    domains: [], // Add the domain(s) from which you are fetching images, e.g., ["example.com"]
-    loader: 'default', // Use "default" loader for regular images or add other loaders like "imgix" or "cloudinary"
+    loader: 'default', // Use "default" loader for regular images 
   },
   eslint: {
     ignoreDuringBuilds: true,
