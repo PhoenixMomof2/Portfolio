@@ -187,7 +187,7 @@ const projects = () => {
                 type="Budget App"
                 title="B-Clever"
                 img={p5}
-                link="#"
+                link="https://www.loom.com/share/c2a5e2286360451eb2d69d29b38e7ebf?sid=655c8123-38a4-4d1f-975d-00e02e97402d"
                 github="https://github.com/PhoenixMomof2/B-Clever.git"
               />
             </div>
