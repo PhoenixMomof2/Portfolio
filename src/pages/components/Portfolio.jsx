@@ -9,7 +9,7 @@ import p5 from '../../../public/assets/B-Clever.jpg'
 import p6 from '../../../public/assets/BudgetApp.png'
 import p7 from '../../../public/assets/RecipeApp.png'
 import p8 from '../../../public/assets/Portfolio.jpg'
-import p9 from '../../../public/assets/BBM.jpg'
+import p9 from '../../../public/assets/Portfolio.jpg'
 import Image from 'next/image';
 
 const Portfolio = () => {

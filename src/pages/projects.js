@@ -10,10 +10,10 @@ import TransitionEffect from "./components/TransitionEffect";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import p1 from "../../public/assets/TVApp.png";
 import p2 from "../../public/assets/HungerSmash.jpg";
-import p3 from "../../public/assets/Hogwarts-ish.jpg";
-import p4 from "../../public/assets/Awaken.jpg";
-import p5 from "../../public/assets/B-Clever.jpg";
-import p6 from "../../public/assets/BudgetApp.png";
+import p3 from "../../public/assets/RecipeApp.png";
+import p4 from "../../public/assets/RecipeApp.png";
+import p5 from "../../public/assets/RecipeApp.png";
+import p6 from "../../public/assets/RecipeApp.png";
 import p7 from "../../public/assets/RecipeApp.png";
 
 const FramerImage = motion(Image);
