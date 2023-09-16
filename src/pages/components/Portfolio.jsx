@@ -15,7 +15,7 @@ import Image from 'next/image';
 const Portfolio = () => {
 
   const projects = [
-    {
+    { 
       id: 1, 
       image: p1,
       title: "TV Show Search", 
